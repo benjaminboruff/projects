@@ -3,7 +3,8 @@
 return [
     'production' => false,
     'baseUrl' => '',
-    'title' => 'Benjamin H Boruff',
+    'siteTitle' => 'Benjamin H Boruff',
     'description' => 'Project portfolio site',
-    'collections' => [],
+    'contact_email' => 'benboruff@gmail.com',
+    'collections' => ['projects'],
 ];
