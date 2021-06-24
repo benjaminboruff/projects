@@ -14,6 +14,8 @@
 <body class="flex flex-col min-h-screen text-gray-900 font-sans antialiased">
     @include('_partials.header')
     @yield('body')
+    @include('_partials.about')
+    @include('_partials.contact')
     @include('_partials.footer')
 </body>
 
