@@ -3,7 +3,7 @@
 return [
     'production' => false,
     'baseUrl' => '',
-    'title' => 'Jigsaw',
-    'description' => 'Website description.',
+    'title' => 'Benjamin H Boruff',
+    'description' => 'Project portfolio site',
     'collections' => [],
 ];
