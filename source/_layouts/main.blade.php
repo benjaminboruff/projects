@@ -11,11 +11,9 @@
     <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
 </head>
 
-<body class="flex flex-col min-h-screen text-gray-900 font-sans antialiased">
+<body id="home" class="flex flex-col min-h-screen text-gray-900 font-sans antialiased bg-green-50">
     @include('_partials.header')
     @yield('body')
-    @include('_partials.about')
-    @include('_partials.contact')
     @include('_partials.footer')
 </body>
 
