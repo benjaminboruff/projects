@@ -3,8 +3,9 @@
 return [
     'production' => false,
     'baseUrl' => '',
-    'siteTitle' => 'Benjamin H Boruff',
+    'site_title' => 'Benjamin H Boruff',
     'description' => 'Project portfolio site',
     'contact_email' => 'benboruff@gmail.com',
+    'resume_url' => 'https://stackoverflow.com/cv/benjaminboruff',
     'collections' => ['projects'],
 ];

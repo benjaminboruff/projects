@@ -3,10 +3,16 @@
 @section('body')
 <div class="flex-auto mx-auto">
     <div class="prose">
-        <h1> {{ $page->title }} </h1>
-        <h2>by {{ $page->author }}</h2>
+        <h1 class="text-center"> {{ $page->title }} </h1>
+        <a href="{{ $page->liveUrl }}">
+            <img class="mx-auto" src="{{ '/assets/images/'.$page->image }}" alt="pomodoro timer image">
+        </a>
+        <div class="px-4">
+            <h2> {{ $page->description }}</h2>
+            <a href="{{ $page->githubUrl }}">on github</a>
 
-        @yield('projectContent')
+            @yield('projectContent')
+        </div>
     </div>
 </div>
 @endsection
