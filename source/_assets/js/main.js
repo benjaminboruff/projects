@@ -1,6 +1,6 @@
 let menuArrow = document.getElementById("menu-arrow");
 
-mobileMenu = document.getElementById("menu");
+let mobileMenu = document.getElementById("menu");
 
 // open and close menu via hamburger
 menuArrow.addEventListener("click", function () {
