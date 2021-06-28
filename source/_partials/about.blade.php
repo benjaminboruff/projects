@@ -1,4 +1,4 @@
-<div id="about" class="p-4">
+<div id="about" class="pl-6 py-4 pr-2">
     <p class="text-center text-lg">About</p>
     <hr />
     <div class="prose mx-auto">
