@@ -6,7 +6,7 @@ pagination:
 @extends('_layouts.main')
 
 @section('body')
-<div>
+<div class="mt-6">
     {{-- <a href="/#"><h1 class="text-3xl text-center pt-4 pb-2 mg:hidden">{{ $page->site_title }}</h1></a> --}}
     <div class="grid grid-cols-1 md:grid-cols-3 md:gap-4">
         <div>
