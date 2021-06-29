@@ -11,9 +11,9 @@
                 </div>
                 <div class="mt-20 md:mt-10">
                     <ul id="menu" class="grid grid-flow-row text-center font-semibold">
-                        <li class="pt-8 pb-4"><a href="/#home" class="text-yellow-200 hover:underline tracking-wider">Home</a></li>
-                        <li class="py-4"><a href="/#about" class="text-yellow-200 hover:underline tracking-wider">About</a></li>
-                        <li class="py-4"><a href="/#contact" class="text-yellow-200 hover:underline tracking-wider">Contact</a></li>
+                        <li class="pt-8 pb-4"><a href="/#home" class="text-yellow-200 tracking-wider hover:underline">Home</a></li>
+                        <li class="py-4"><a href="/#about" class="text-yellow-200 tracking-wider hover:underline">About</a></li>
+                        <li class="py-4"><a href="/#contact" class="text-yellow-200 tracking-wider hover:underline">Contact</a></li>
                     </ul>
                 </div>
             </div>

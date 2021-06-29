@@ -6,7 +6,7 @@ pagination:
 @extends('_layouts.main')
 
 @section('body')
-<div class="flex-auto container mx-auto">
+<div class="mt-6">
     {{-- <a href="/#"><h1 class="text-3xl text-center pt-4 pb-2 mg:hidden">{{ $page->site_title }}</h1></a> --}}
     <div class="grid grid-cols-1 md:grid-cols-3 md:gap-4">
         <div>
@@ -18,8 +18,8 @@ pagination:
                 @foreach ($pagination->items as $project)
                 <div>
                     <li class="rounded overflow-hidden shadow-lg py-4">
-                        <a class="text-green-600 tracking-wide hover:underline px-2" href="{{ $project->getUrl() }}">{{ $project->title }}</a>
-                        <p class="px-2">{{ $project->description }}</p>
+                        <a class="px-2 text-green-600 tracking-wide hover:underline " href="{{ $project->getUrl() }}">{{ $project->title }}</a>
+                        <p class="px-2 prose">{{ $project->description }}</p>
                     </li>
                 </div>
                 @endforeach
