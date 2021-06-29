@@ -5,7 +5,7 @@
     <div class="prose">
         <h1 class="text-center"> {{ $page->title }} </h1>
         <a href="{{ $page->liveUrl }}">
-            <img class="mx-auto" src="{{ '/assets/images/'.$page->image }}" alt="pomodoro timer image">
+            <img class="mx-auto" src="{{ '/assets/images/'.$page->image }}" alt="{{ $page->alt }}">
         </a>
         <div class="px-4">
             <h2> {{ $page->description }}</h2>
