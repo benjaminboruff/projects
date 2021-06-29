@@ -1,7 +1,7 @@
 ---
 pagination:
     collection: projects
-    perPage: 3
+    perPage: 5
 ---
 @extends('_layouts.main')
 
