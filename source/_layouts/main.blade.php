@@ -12,12 +12,14 @@
 </head>
 
 <body id="home" class="text-gray-900 font-sans antialiased bg-green-50">
+    <div class="sticky top-0 z-50 lg:hidden">
+        @include('_partials.header')
+    </div>
     <div class="flex flex-row">
         <div>
             @include('_partials.sidebar')
         </div>
         <div class="flex flex-grow flex-col min-h-screen">
-            {{-- @include('_partials.header') --}}
             @yield('body')
         </div>
     </div>

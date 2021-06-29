@@ -7,10 +7,10 @@ pagination:
 
 @section('body')
 <div class="flex-auto container mx-auto">
-    {{-- <h1 class="text-3xl text-center py-2">Project Portfolio</h1> --}}
-    <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 md:gap-4">
+    {{-- <a href="/#"><h1 class="text-3xl text-center pt-4 pb-2 mg:hidden">{{ $page->site_title }}</h1></a> --}}
+    <div class="grid grid-cols-1 md:grid-cols-3 md:gap-4">
         <div>
-            <div class="pt-4 px-2">
+            <div class="p-2 lg:p-4">
                 <p class="text-center text-lg">Projects</p>
                 <hr/>
             </div>

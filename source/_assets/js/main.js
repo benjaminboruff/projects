@@ -1,9 +1,12 @@
 let menuArrow = document.getElementById("menu-arrow");
+let mobileSidebar = document.getElementById("sidebar");
 
-let mobileMenu = document.getElementById("menu");
-
-// open and close menu via hamburger
+// open and close sidebar via menu-arrow
 menuArrow.addEventListener("click", function () {
   menuArrow.classList.toggle("rotate-180");
-  mobileMenu.classList.toggle("hidden");
+  
+  mobileSidebar.classList.toggle("transition");
+  mobileSidebar.classList.toggle("duration-700");
+  mobileSidebar.classList.toggle("transform");
+  mobileSidebar.classList.toggle("translate-x-full");
 });
