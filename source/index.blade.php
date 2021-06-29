@@ -11,14 +11,14 @@ pagination:
     <div class="grid grid-cols-1 md:grid-cols-3 md:gap-4">
         <div>
             <div class="p-2 lg:p-4">
-                <p class="text-center text-lg">Projects</p>
+                <p class="text-center text-lg tracking-widest">Projects</p>
                 <hr/>
             </div>
             <ul class="flex flex-col p-4">
                 @foreach ($pagination->items as $project)
                 <div>
                     <li class="rounded overflow-hidden shadow-lg py-4">
-                        <a class="text-green-600 hover:underline px-2" href="{{ $project->getUrl() }}">{{ $project->title }}</a>
+                        <a class="text-green-600 tracking-wide hover:underline px-2" href="{{ $project->getUrl() }}">{{ $project->title }}</a>
                         <p class="px-2">{{ $project->description }}</p>
                     </li>
                 </div>

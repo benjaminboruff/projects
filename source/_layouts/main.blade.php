@@ -11,7 +11,7 @@
     <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
 </head>
 
-<body id="home" class="text-gray-900 font-sans antialiased bg-green-50">
+<body id="home" class="text-gray-900 font-sans antialiased bg-green-50 relative">
     <div class="sticky top-0 z-50 lg:hidden">
         @include('_partials.header')
     </div>
