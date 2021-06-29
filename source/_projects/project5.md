@@ -5,7 +5,7 @@ title: Projects Portfolio
 liveUrl: https://boruff.me/
 githubUrl: https://github.com/benjaminboruff/projects
 description: This site
-image: calculator2.jpg
+image: www.png
 alt: Project Portfolio site image
 ---
 
