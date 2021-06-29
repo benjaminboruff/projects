@@ -1,12 +1,12 @@
 ---
 extends: _layouts.project
 section: projectContent
-title: Pomodoro Timer
-liveUrl: https://pomodoro.boruff.me/
-githubUrl: https://github.com/benjaminboruff/pomodoro
-description: A React Web App Pomodoro timer
-image: pomodoro.jpg
-alt: Pomodoro timer image
+title: Blasteroids
+liveUrl: https://blasteroids.boruff.me/
+githubUrl: https://github.com/benjaminboruff/blasteroids
+description: A "reactified" asteroids-style browser game"
+image: blasteroids.jpg
+alt: Blasteroids image
 ---
 
-For the alarm to sound properly, either the browser must be in focus, or the timer must be in its own tab that has been detached, alone.
+An Asteroids type game written in ES2015 using the Phaser framework
