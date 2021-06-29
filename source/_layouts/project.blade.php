@@ -5,7 +5,7 @@
     <div class="prose">
         <h1 class="text-center"> {{ $page->title }} </h1>
         <a href="{{ $page->liveUrl }}">
-            <img class="mx-auto" src="{{ '/assets/images/'.$page->image }}" alt="{{ $page->alt }}">
+            <img class="mx-auto" src="{{ '/assets/images/'.$page->image }}" alt="{{ $page->alt }}" width="320" height="240">
         </a>
         <div class="px-4">
             <h2> {{ $page->description }}</h2>
