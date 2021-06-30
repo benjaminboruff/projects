@@ -1,5 +1,5 @@
 <div id="contact" class="p-2 lg:pl-2 lg:pt-4 lg:pr-4">
-    <p class="text-center text-lg tracking-widest">Contact</p>
+    <p class="mt-14 md:mt-0 text-center text-lg tracking-widest">Contact</p>
     <hr />
     <div class="prose p-2 mx-auto">
         <p>
