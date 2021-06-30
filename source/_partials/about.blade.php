@@ -3,9 +3,9 @@
     <hr />
     <div class="prose p-2 mx-auto">
         <p>
-            I am a programmer and \*nix administrator with
-            a background in both front-end and back-end web development, as well as
-            both Linux and FreeBSD system administration.
+            I am a programmer with
+            a background in front-end and back-end web development, as well as
+            Linux and FreeBSD system administration.
         </p>
 
         <p>
