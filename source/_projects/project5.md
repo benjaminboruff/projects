@@ -9,4 +9,4 @@ image: www.png
 alt: Project Portfolio site image
 ---
 
-This site; created using the [Jigsaw](https://jigsaw.tighten.co/) static site generator, using [Tailwind](https://tailwindcss.com/) for styling
+This site. Created using the [Jigsaw](https://jigsaw.tighten.co/) static site generator, with [Tailwind](https://tailwindcss.com/) for styling
