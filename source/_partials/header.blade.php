@@ -9,11 +9,11 @@
                 </svg>
             </div>
             <div class="py-2 pr-14 flex-grow md:p-4">
-                <a class="block text-center text-yellow-200" href="/">
+                <a class="block text-center tracking-wide text-yellow-200 font-medium" href="/">
                     <span class="sr-only">Benjamin H Boruff</span>
                     {{ $page->site_title }}
                 </a>
-                <div class="text-center text-xs text-yellow-200">Developer</div>
+                <div class="text-center text-xs tracking-wide text-yellow-200">Developer</div>
             </div>
         </nav>
     </div>
