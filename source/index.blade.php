@@ -7,7 +7,7 @@ pagination:
 
 @section('body')
 <div class="mt-6">
-    <div class="grid grid-cols-1 md:grid-cols-3 md:gap-4">
+    <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-4">
         <div>
             <div class="p-2 lg:p-4">
                 <p class="text-center text-lg tracking-widest">Projects</p>
@@ -24,8 +24,8 @@ pagination:
                 @endforeach
             </ul>
         </div>
-        <div class="md:order-first">@include('_partials.about')</div>
-        <div class="md:order-last">@include('_partials.contact')</div>
+        <div class="lg:order-first">@include('_partials.about')</div>
+        <div class="lg:order-last">@include('_partials.contact')</div>
     </div>
 </div>
 @endsection
