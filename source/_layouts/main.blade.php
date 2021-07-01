@@ -16,7 +16,7 @@
         @include('_partials.header')
     </div>
     <div class="flex flex-row">
-        <div class="md:hidden">
+        <div class="lg:hidden">
             @include('_partials.sidebar')
         </div>
         <div class="flex flex-grow flex-col min-h-screen">

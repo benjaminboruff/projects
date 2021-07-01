@@ -1,4 +1,4 @@
-<div id="sidebar" class="fixed w-36 bg-gray-600  top-0 z-40 transform -translate-x-full md:translate-x-0">
+<div id="sidebar" class="fixed w-36 bg-gray-600  top-0 z-40 transform -translate-x-full lg:translate-x-0">
     <nav>
         <div class="grid grid-cols-1 min-h-screen">
             <div class="">

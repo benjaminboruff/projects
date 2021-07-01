@@ -15,6 +15,8 @@ menuArrow.addEventListener("click", function () {
 // close sidebar when menu item is clicked
 sidebarItems.forEach(function (elem) {
   elem.addEventListener("click", function () {
+    menuArrow.classList.toggle("rotate-180");
+
     mobileSidebar.classList.toggle("transition");
     mobileSidebar.classList.toggle("duration-700");
     mobileSidebar.classList.toggle("transform");
