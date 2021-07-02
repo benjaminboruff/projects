@@ -1,16 +1,23 @@
+const colors = require("tailwindcss/colors");
+
 module.exports = {
   purge: {
     content: ["source/**/*.blade.php", "source/**/*.md", "source/**/*.html"],
     safelist: [
-      'transition',
-      'duration-700',
-      'transform',
-      'rotate-180',
-      'translate-x-full'
-    ]
+      "transition",
+      "duration-700",
+      "transform",
+      "rotate-180",
+      "translate-x-full",
+    ],
   },
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        orange: colors.orange,
+        lime: colors.lime,
+      },
+    },
   },
   variants: {
     extend: {},

@@ -17,7 +17,7 @@ pagination:
                 @foreach ($pagination->items as $project)
                 <div>
                     <li class="rounded overflow-hidden shadow-lg py-4">
-                        <a class="px-2 text-green-600 tracking-wide hover:underline " href="{{ $project->getUrl() }}">{{ $project->title }}</a>
+                        <a class="px-2 text-lime-600 tracking-wide hover:underline " href="{{ $project->getUrl() }}">{{ $project->title }}</a>
                         <p class="px-2 prose">{{ $project->description }}</p>
                     </li>
                 </div>
