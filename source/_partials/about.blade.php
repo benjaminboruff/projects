@@ -1,5 +1,5 @@
-<div id="about" class="p-2 lg:pl-4 lg:py-4 lg:pr-2">
-    <p class=" mt-14 md:mt-0 text-center text-lg tracking-widest">About</p>
+<div id="about" class="p-2 lg:pl-4 lg:pt-4 lg:pr-2">
+    <p class="mt-14 md:mt-0 text-center text-lg tracking-widest">About</p>
     <hr />
     <div class="prose p-2 mx-auto">
         <p>

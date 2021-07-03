@@ -10,7 +10,7 @@
                 </svg>
             </div>
             <div class="mt-3 mb-2 pr-14 flex-grow lg:p-4">
-                <a class="block text-center tracking-wide text-orange-300 font-medium" href="/">
+                <a class="block text-center text-lg tracking-wide text-orange-300 font-semibold" href="/">
                     <span class="sr-only">Benjamin H Boruff</span>
                     {{ $page->site_title }}
                 </a>

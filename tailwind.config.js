@@ -17,6 +17,9 @@ module.exports = {
         orange: colors.orange,
         lime: colors.lime,
       },
+      fontFamily: {
+        'sans': ['Work Sans','sans-serif']
+      }
     },
   },
   variants: {
