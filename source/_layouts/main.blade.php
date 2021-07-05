@@ -17,6 +17,7 @@
 <body id="home" class="text-gray-900 font-sans antialiased bg-gradient-to-r from-green-50 via-lime-50 to-orange-50 relative">
     <div class="sticky top-0 z-50">
         @include('_partials.header')
+        @include('_partials.hero')
     </div>
     <div class="flex flex-row">
         <div class="lg:hidden">
