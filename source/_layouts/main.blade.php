@@ -14,17 +14,19 @@
     <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
 </head>
 
-<body id="home" class="text-gray-900 font-sans antialiased bg-gradient-to-r from-green-50 via-lime-50 to-orange-50 relative">
-    <div class="sticky top-0 z-50">
-        @include('_partials.header')
-        @include('_partials.hero')
-    </div>
-    <div class="flex flex-row">
-        <div class="lg:hidden">
-            @include('_partials.sidebar')
+<body id="home" class="text-gray-900 font-sans antialiased bg-gradient-to-r from-green-50 via-lime-50 to-orange-50 min-h-screen">
+    <div class="flex flex-col min-h-screen">
+        <div>
+            @include('_partials.header')
+            @include('_partials.hero')
         </div>
-        <div class="flex flex-grow flex-col min-h-screen">
-            @yield('body')
+        <div class="flex flex-row">
+            <div class="lg:hidden">
+                @include('_partials.sidebar')
+            </div>
+            <div class="flex flex-grow flex-col min-h-screen">
+                @yield('body')
+            </div>
         </div>
     </div>
 </body>

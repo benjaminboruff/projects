@@ -6,8 +6,8 @@ pagination:
 @extends('_layouts.main')
 
 @section('body')
-<div class="mt-6">
-    <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-4">
+<div class="">
+    <div class="">
         <div>
             <div class="p-2 lg:p-4">
                 <p class="text-center text-lg tracking-widest">Projects</p>
