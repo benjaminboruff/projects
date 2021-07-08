@@ -1,4 +1,4 @@
-<header class="absolute bg-no-repeat bg-right w-full z-20">
+<header class="absolute bg-no-repeat bg-right w-full z-20 main-header">
     <div class="max-w-6xl p-4 mx-auto text-lg lg:py-8">
         <div class="flex justify-between flew-wrap md:content-center">
             <div class="">
