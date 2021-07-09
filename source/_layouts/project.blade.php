@@ -4,7 +4,7 @@
 <div class="flex-auto mx-auto">
     <div class="prose">
         <div class="flex flex-col justify-center">
-            <div class="-mt-4">
+            <div class="mt-8">
                 <p class="text-2xl text-center font-semibold"> {{ $page->title }} </p>
             </div>
             <div class="self-center">

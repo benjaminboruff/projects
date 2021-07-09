@@ -6,17 +6,17 @@
         <img class="bg-center bg-cover bg-no-repeat h-full left-0 top-0 w-full z-20" src="/assets/images/hero.webp" alt="hero">
     </div>
 
-    <div class="absolute flex flex-col h-full justify-center left-0 w-full top-0 z-40 text-green-600">
+    <div class="absolute flex flex-col h-full justify-center left-0 w-full top-0 z-40 text-white">
         <div class="max-w-lg px-4 w-full">
-            <div class="max-w-md mt-24">
+            <div class="max-w-md mt-44">
                 <div class="font-semibold mb-8 text-3xl">
                     <p>
                         Hey, I'm Ben Boruff, programmer and system administrator.
                     </p>
                 </div>
-                <div>
+                <div class="text-2xl">
                     <p>
-                        I do front and back-end web development using many tools and languages.
+                        I do front and back-end web development using various tools, languages, and architechtures.
                     </p>
                 </div>
             </div>
