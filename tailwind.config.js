@@ -9,6 +9,7 @@ module.exports = {
       "transform",
       "rotate-180",
       "translate-x-full",
+      "invisible",
     ],
   },
   theme: {
