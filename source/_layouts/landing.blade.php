@@ -18,7 +18,7 @@
     <div class="flex flex-col min-h-screen">
         <div>
             @include('_partials.header')
-            {{-- @include('_partials.hero') --}}
+            @include('_partials.hero')
         </div>
         <div class="flex flex-row">
             <div class="lg:hidden">

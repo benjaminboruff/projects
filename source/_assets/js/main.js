@@ -1,6 +1,9 @@
 let menuArrow = document.getElementById("menu-arrow");
 let mobileSidebar = document.getElementById("sidebar");
-let sidebarItems = document.querySelectorAll("#side-home, #side-about, #side-contact");
+let logo = document.getElementById("logo");
+let sidebarItems = document.querySelectorAll(
+  "#side-home, #side-about, #side-contact"
+);
 
 // open and close sidebar via menu-arrow
 menuArrow.addEventListener("click", function () {
@@ -30,3 +33,13 @@ sidebarItems.forEach(function (elem) {
     mobileSidebar.classList.toggle("translate-x-full");
   });
 });
+
+// When the user scrolls down, hide the logo. When the user scrolls back to the top, show the logo
+window.onscroll = function () {
+  var currentScrollPos = window.pageYOffset;
+  if (currentScrollPos !== 0) {
+    logo.classList.add("invisible");
+  } else {
+    logo.classList.remove("invisible");
+  }
+};
