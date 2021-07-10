@@ -1,7 +1,7 @@
 <header class="fixed bg-no-repeat bg-right w-full z-20 main-header">
     <div class="max-w-6xl p-4 mx-auto text-lg lg:py-8">
         <div class="flex justify-between flew-wrap md:content-center">
-            <div id="logo" class="-mt-4">
+            <div id="logo" class="-mt-4 md:mt-2 md:ml-12 xl:ml-0">
                 <a href="/#">
                     <svg class=" fill-current text-white" width="100" height="60" viewBox="0 0 69.99221 26.49457" version="1.1" id="svg5" inkscape:version="1.1 (c68e22c387, 2021-05-23)" sodipodi:docname="logo.svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
                         <sodipodi:namedview id="namedview7" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:document-units="px" showgrid="true" inkscape:zoom="2.8284271" inkscape:cx="185.26198" inkscape:cy="48.613592" inkscape:window-width="1920" inkscape:window-height="1016" inkscape:window-x="0" inkscape:window-y="27" inkscape:window-maximized="1" inkscape:current-layer="layer2" fit-margin-top="0" fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0">
@@ -33,32 +33,20 @@
                             </text>
                         </g>
                     </svg>
-                    {{-- <div class="">
-                    <a class="tracking-wide text-orange-600 font-semibold" href="/">
-                        <span class="sr-only">Benjamin H Boruff</span>
-                        {{ $page->site_title }}
                 </a>
-            </div> --}}
-            </a>
-        </div>
-        <div id="menu-arrow" class="-mt-2">
-            <svg class="lg:invisible fill-current text-white " width="25" height="25" viewBox="0 0 6.6145832 6.6145835" version="1.1" id="svg14325" inkscape:version="1.1 (c68e22c387, 2021-05-23)" sodipodi:docname="menu_arrow.svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
-                <sodipodi:namedview id="namedview14327" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:document-units="mm" showgrid="true" units="px" fit-margin-top="0" fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0" inkscape:zoom="22.627417" inkscape:cx="12.020815" inkscape:cy="12.838408" inkscape:window-width="1920" inkscape:window-height="1016" inkscape:window-x="0" inkscape:window-y="27" inkscape:window-maximized="1" inkscape:current-layer="layer1">
-                    <inkscape:grid type="xygrid" id="grid14362" />
-                </sodipodi:namedview>
-                <defs id="defs14322" />
-                <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1">
-                    <path style="fill:none;stroke: #ffffff ;stroke-width:0.465;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" d="m 0.26458333,1.3229166 2.38124997,3.96875 H 3.96875 l 2.3812499,-3.96875" id="path14397" />
-                </g>
-            </svg>
-            {{-- <svg class="lg:invisible fill-current text-orange-600 " viewBox='0 0 140 140' width='24' height='24' xmlns='http://www.w3.org/2000/svg'>
-                <g>
-                    <path d='m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 
-                        1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z' fill='' />
-                </g>
-            </svg> --}}
-        </div>
+            </div>
+            <div id="menu-arrow" class="-mt-2 md:mt-4 md:mr-4">
+                <svg class="lg:invisible fill-current text-white " width="25" height="25" viewBox="0 0 6.6145832 6.6145835" version="1.1" id="svg14325" inkscape:version="1.1 (c68e22c387, 2021-05-23)" sodipodi:docname="menu_arrow.svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+                    <sodipodi:namedview id="namedview14327" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:document-units="mm" showgrid="true" units="px" fit-margin-top="0" fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0" inkscape:zoom="22.627417" inkscape:cx="12.020815" inkscape:cy="12.838408" inkscape:window-width="1920" inkscape:window-height="1016" inkscape:window-x="0" inkscape:window-y="27" inkscape:window-maximized="1" inkscape:current-layer="layer1">
+                        <inkscape:grid type="xygrid" id="grid14362" />
+                    </sodipodi:namedview>
+                    <defs id="defs14322" />
+                    <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1">
+                        <path style="fill:none;stroke: #ffffff ;stroke-width:0.465;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" d="m 0.26458333,1.3229166 2.38124997,3.96875 H 3.96875 l 2.3812499,-3.96875" id="path14397" />
+                    </g>
+                </svg>
+            </div>
 
-    </div>
+        </div>
     </div>
 </header>

@@ -35,10 +35,9 @@ sidebarItems.forEach(function (elem) {
 });
 
 // When the user scrolls down, hide the logo. When the user scrolls back to the top, show the logo
-var prevScrollpos = window.pageYOffset;
 window.onscroll = function () {
   var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos !== currentScrollPos) {
+  if (currentScrollPos !== 0) {
     logo.classList.add("invisible");
   } else {
     logo.classList.remove("invisible");

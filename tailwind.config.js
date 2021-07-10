@@ -16,10 +16,11 @@ module.exports = {
       colors: {
         orange: colors.orange,
         lime: colors.lime,
+        "pale-violet-red": "#DB7093",
       },
       fontFamily: {
-        'sans': ['Work Sans','sans-serif']
-      }
+        sans: ["Work Sans", "sans-serif"],
+      },
     },
   },
   variants: {

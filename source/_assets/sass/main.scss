@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-.prose a {
+.prose a, .project-text {
     text-decoration: inherit;
     --tw-text-opacity: 1;
-    color: rgba(256, 256, 256, var(--tw-text-opacity));
+    color: rgba(219,112,147, var(--tw-text-opacity));
 }
 
 .prose a:hover {
