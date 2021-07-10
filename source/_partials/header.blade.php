@@ -1,7 +1,7 @@
-<header class="absolute bg-no-repeat bg-right w-full z-20 main-header">
+<header class="fixed bg-no-repeat bg-right w-full z-20 main-header">
     <div class="max-w-6xl p-4 mx-auto text-lg lg:py-8">
         <div class="flex justify-between flew-wrap md:content-center">
-            <div class="-mt-4">
+            <div id="logo" class="-mt-4">
                 <a href="/#">
                     <svg class=" fill-current text-white" width="100" height="60" viewBox="0 0 69.99221 26.49457" version="1.1" id="svg5" inkscape:version="1.1 (c68e22c387, 2021-05-23)" sodipodi:docname="logo.svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
                         <sodipodi:namedview id="namedview7" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:document-units="px" showgrid="true" inkscape:zoom="2.8284271" inkscape:cx="185.26198" inkscape:cy="48.613592" inkscape:window-width="1920" inkscape:window-height="1016" inkscape:window-x="0" inkscape:window-y="27" inkscape:window-maximized="1" inkscape:current-layer="layer2" fit-margin-top="0" fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0">
