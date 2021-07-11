@@ -15,7 +15,7 @@
 </head>
 
 <body id="home" class="text-gray-900 font-sans antialiased bg-gradient-to-r from-green-300 via-lime-300 to-orange-300 min-h-screen">
-    <div class="flex flex-col min-h-screen">
+    <div class="flex flex-col  min-h-screen">
         <div>
             @include('_partials.header')
             @include('_partials.hero')
